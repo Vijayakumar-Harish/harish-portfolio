@@ -7,16 +7,31 @@ export const profile = {
   summary:
     "Full-stack engineer (2.5+ years) skilled in React.js, Tailwind CSS, Fastify, GraphQL, gRPC, Kafka, MongoDB, Redis, and AWS. Built scalable fintech platforms, merchant onboarding APIs, and real-time data pipelines. Strong data analytics foundation (SQL, Power BI).",
   links: {
-    linkedin: "https://www.linkedin.com/",
-    github: "https://github.com/",
-    resume: "/Harish_V_Resume.pdf"
+    linkedin: "https://www.linkedin.com/in/harish-vijayakumar-bb9765191/",
+    github: "https://github.com/Vijayakumar-Harish",
+    resume: "/Harish_V_Resume.pdf",
   },
   skills: [
-    "React.js", "Next.js", "Tailwind CSS", "JavaScript (ES6+)",
-    "Node.js", "Fastify", "Express.js", "GraphQL", "REST", "gRPC",
-    "MongoDB", "Redis", "MySQL",
-    "Kafka", "Microservices", "AWS",
-    "Git", "Linux", "Power BI", "ETL"
+    "React.js",
+    "Next.js",
+    "Tailwind CSS",
+    "JavaScript (ES6+)",
+    "Node.js",
+    "Fastify",
+    "Express.js",
+    "GraphQL",
+    "REST",
+    "gRPC",
+    "MongoDB",
+    "Redis",
+    "MySQL",
+    "Kafka",
+    "Microservices",
+    "AWS",
+    "Git",
+    "Linux",
+    "Power BI",
+    "ETL",
   ],
   experience: [
     {
@@ -30,8 +45,8 @@ export const profile = {
         "Developed Fastify microservices with GraphQL and gRPC for modular deployments.",
         "Orchestrated real-time streams with Kafka processing 10k+ transactions/day for instant reporting.",
         "Optimized MongoDB queries with Redis caching, cutting API latency by ~30%.",
-        "Delivered secure external bank API integrations aligned with compliance requirements."
-      ]
+        "Delivered secure external bank API integrations aligned with compliance requirements.",
+      ],
     },
     {
       company: "Strategic Infra Services",
@@ -41,8 +56,8 @@ export const profile = {
       bullets: [
         "Automated retrieval of GST data for 1,000+ transactions, improving data availability by 20%.",
         "Enhanced ETL workflows using SQL, improving data accuracy by 30% and reducing reporting errors by 15%.",
-        "Built compliance dashboards in Excel & Power BI for streamlined tax reporting."
-      ]
+        "Built compliance dashboards in Excel & Power BI for streamlined tax reporting.",
+      ],
     },
     {
       company: "Tech Fortune Technologies",
@@ -50,18 +65,20 @@ export const profile = {
       period: "Aug 2022 – Oct 2022",
       location: "Bangalore",
       bullets: [
-        "Developed and deployed a recommendation system that boosted engagement by ~25% in testing."
-      ]
-    }
+        "Developed and deployed a recommendation system that boosted engagement by ~25% in testing.",
+      ],
+    },
   ],
   education: [
     {
       school: "Bangalore Institute of Technology",
       degree: "B.E, Computer Science & Engineering",
       period: "May 2023",
-      extras: ["Published Paper: Trusted Crowdfunding Platform Using Smart Contracts"]
-    }
-  ]
+      extras: [
+        "Published Paper: Trusted Crowdfunding Platform Using Smart Contracts",
+      ],
+    },
+  ],
 };
 
 export const projects = [
