@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 255 255 255;
+  --fg: 17 24 39;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  color: rgb(var(--fg));
+  background: rgb(var(--bg));
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+.section {
+  @apply py-12 md:py-20;
+}
+
+.card {
+  @apply rounded-2xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition-shadow bg-white;
+}
